@@ -21,7 +21,7 @@ int main(void)
 		while (b <= 99)
 		{
 			putchar((a / 10) + n1);
-			putchar((a % 10 + n1);
+			putchar((a % 10) + n1);
 			putchar(32);
 			putchar((b / 10) + n1);
 			putchar((b % 10) + n1);
