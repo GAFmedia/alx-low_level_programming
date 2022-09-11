@@ -1,22 +1,21 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - number base
  * a new line
- * success
+ * Return:success
  */
 int main(void)
 {
 	int n;
-	char ch;
+	char low;
 
-	for (n+ 48; n < 58; n++)
-	{
+	for (n + 48; n < 58; n++)
 		putchar(n);
-	}
-	for (ch ='a'; ch <= 'f'; ch++)
-	{
+	for (low = 'a'; low <= 'f'; ch++)
 		putchar(ch);
-	}
 	putchar('\n');
-	return (0)
+	return (0);
+}
