@@ -5,7 +5,7 @@
 /**
  * main - number base
  * a new line
- * Return:success
+ * Return: 0 success
  */
 int main(void)
 {
@@ -14,7 +14,7 @@ int main(void)
 
 	for (n + 48; n < 58; n++)
 		putchar(n);
-	for (low = 'a'; low <= 'f'; ch++)
+	for (low = 'a'; low <= 'f'; low++)
 		putchar(ch);
 	putchar('\n');
 	return (0);
