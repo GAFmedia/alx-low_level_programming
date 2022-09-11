@@ -25,4 +25,12 @@ int main(void)
 					putchar((j % 10) + 48);
 					if (i != 98 || j !=99)
 					{
-						putchar('
+						putchar(com);
+						putchar(32);
+					}
+				}
+			}
+		}
+	putchar('\n');
+	return (0);
+}
