@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
-  * print_alphabet
+  * print_alphabet -This program prints
+  * the english alphabet from a-z.
+  * Return: Void.
   */
-
 void print_alphabet(void)
 {
 	int ch;
