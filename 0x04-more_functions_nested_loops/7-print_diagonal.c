@@ -6,22 +6,20 @@ nclude "main.h"
   *
   * Return: To the value of c.
   */
+
 void print_diagonal(int n)
 {
-	int i;
-	int j;
+	int column, space, i;
 
 	if (n <= 0)
-	{
 		_putchar('\n');
-	}
 	else
 	{
-		_putchar('\\');
-		_putchar('\n');
-		for (i = 0; i < (n - 1); i++)
+		for (column = 0; column < n; column++)
 		{
-			for (j = i; j >= 0; j--)
+			i = column - 1;
+
+			for (space = 0; space <= i; space++)
 			{
 				_putchar(' ');
 			}
