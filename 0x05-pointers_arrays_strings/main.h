@@ -2,12 +2,15 @@
 
 #define MAIN_H
 
-/* header files for phototypes
- *
- * Return : success
- */
+/** 
+  * header files for phototypes
+  *
+  * Return : success
+  */
 
-
+int _putchar(char c);
+int _isupper(int c);
+int _isdigit(int c);
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
 int _strlen(char *s);
@@ -20,3 +23,4 @@ void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
 
+#endif
