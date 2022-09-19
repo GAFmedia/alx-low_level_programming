@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
-  *function that prints a string, in reverse
+  *function that prints a string,
+  *in reverse
   *followed by a new line
   *Retun: success
   */
