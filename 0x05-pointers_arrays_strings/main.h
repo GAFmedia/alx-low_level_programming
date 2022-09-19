@@ -2,6 +2,9 @@
 
 #define MAIN_H
 
+#include <studio.h>
+
+
 /** 
   * header files for phototypes
   *
