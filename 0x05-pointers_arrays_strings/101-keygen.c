@@ -12,10 +12,11 @@ int main(void)
 	int i, count, s;
 
 	count = 0;
-	srand(time(NULL));
+
+	srand (time(NULL));
 	for (i = 0; i < 100; i++)
 	{
-		pass[i] = rand() % 78;
+		pass[i] = rand () % 78;
 		count += (pass[i] + '0');
 		putchar(pass[i] + '0');
 		if ((2772 - count) - '0' < 78)
