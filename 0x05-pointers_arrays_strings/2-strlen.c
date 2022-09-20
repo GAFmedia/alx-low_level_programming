@@ -2,11 +2,11 @@
 
 /**
   * function that returns the length of a string
-  *
+  * @s: an input string
   * Return: success
   */
 
-int _strlen(char *s);
+int _strlen(char *s)
 {
 	int len = 0;
 

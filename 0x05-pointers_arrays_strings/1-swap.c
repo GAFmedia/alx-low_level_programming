@@ -2,11 +2,12 @@
 
 /**
   * function that swaps the values of two integers.
-  *
+  * @a: integer pointer
+  *  @b: integer ponter
   * Return: success
   */
 
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
 	int aux;
 

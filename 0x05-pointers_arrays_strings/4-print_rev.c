@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
-  *function that prints a string,
-  *in reverse
-  *followed by a new line
-  *Retun: success
+  * function that prints a string,
+  * in reverse
+  * followed by a new line
+  * @s: an input string
+  * Retun: success
   */
 
-void print_rev(char *s);
+void print_rev(char *s)
 {
 	int len = 0;
 
