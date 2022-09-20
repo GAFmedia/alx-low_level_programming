@@ -12,6 +12,8 @@ int main(void)
 		char c[] = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 		char p[58];
 
+		count = 0;
+
 		srand(time(NULL));
 		while (s != 2772)
 		{
