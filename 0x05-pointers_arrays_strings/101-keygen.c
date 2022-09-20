@@ -1,5 +1,5 @@
-#include "main.h"
-
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 
 /**
@@ -14,6 +14,7 @@ int main(void)
 	count = 0;
 
 	srand (time(NULL));
+
 	for (i = 0; i < 100; i++)
 	{
 		pass[i] = rand () % 78;
