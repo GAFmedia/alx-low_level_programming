@@ -7,7 +7,7 @@
   *    * @av: array containing arguments
   *     * Return: A pointer to string that containing all arguments
   *      * or NULL if ac == 0, if av == NULL, or upon failure
-  *       */
+  */
 char *argstostr(int ac, char **av)
 {
 	char *new_str;
