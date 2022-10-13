@@ -23,7 +23,7 @@
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	unsigned int muhammad = 0;
-	
+
 	if (action == NULL || array == NULL)
 		return;
 	for (; muhammad < size; muhammad++)
